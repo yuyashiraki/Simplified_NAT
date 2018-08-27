@@ -1,5 +1,10 @@
 Simplified NAT
 ===
+## Description
+- `main.cpp` : Main function to run the program
+- `NAT.h` : Header where NAT class is defined
+- `NAT.cpp` : Functions in NAT class are defined 
+
 ## Functionality
 - Translate a received IP:Port pair into a new IP:Port pair based on the configuration file
 - Either IP or Port, but not both, can be '\*' to match any IP or Port
