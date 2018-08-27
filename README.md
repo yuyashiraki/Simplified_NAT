@@ -3,7 +3,8 @@ Simplified NAT
 ## Description
 - `main.cpp` : Main function to run the program
 - `NAT.h` : Header where NAT class is defined
-- `NAT.cpp` : Functions in NAT class are defined 
+- `NAT.cpp` : Functions in NAT class are defined
+- `tests/` : Files for tests are written. `NAT*.txt` for NAT configuration file, `FLOW*.txt` for IP:Port pair to translate, and `expected*.txt` for expected output for each NAT and FLOW files.  
 
 ## Functionality
 - Translate a received IP:Port pair into a new IP:Port pair based on the configuration file
